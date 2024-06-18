@@ -1,0 +1,172 @@
+[2024-05-18 00:00:08,477][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:00:08,546][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:00:38,561][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:00:38,561][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:01:08,564][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:01:08,564][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:01:38,566][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:01:38,566][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:02:08,571][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:02:08,571][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:02:38,587][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:02:38,587][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:03:08,601][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:03:08,601][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:03:38,605][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:03:38,608][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:04:08,618][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:04:08,621][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:04:38,634][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:04:38,635][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:05:08,644][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:05:08,644][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:05:38,656][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:05:38,656][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:06:08,664][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:06:08,664][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:06:38,671][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:06:38,671][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:07:08,676][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:07:08,676][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:07:38,687][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:07:38,687][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:08:08,688][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:08:08,688][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:08:38,694][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:08:38,694][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:09:08,708][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:09:08,708][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:09:35,586][DEBUG][org.postgresql.Driver][HikariPool-1 connection adder][285]Connecting with URL: jdbc:postgresql://localhost:5432/db_food
+[2024-05-18 00:09:35,586][DEBUG][org.postgresql.jdbc.PgConnection][HikariPool-1 connection adder][249]PostgreSQL JDBC Driver 42.6.2
+[2024-05-18 00:09:35,586][DEBUG][org.postgresql.jdbc.PgConnection][HikariPool-1 connection adder][1228]  setDefaultFetchSize = 0
+[2024-05-18 00:09:35,586][DEBUG][org.postgresql.jdbc.PgConnection][HikariPool-1 connection adder][1237]  setPrepareThreshold = 5
+[2024-05-18 00:09:35,586][DEBUG][org.postgresql.core.v3.ConnectionFactoryImpl][HikariPool-1 connection adder][236]Trying to establish a protocol version 3 connection to localhost:5432
+[2024-05-18 00:09:35,586][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4c5cc1f: (connection has passed maxLifetime)
+[2024-05-18 00:09:35,590][DEBUG][org.postgresql.core.v3.ConnectionFactoryImpl][HikariPool-1 connection adder][179]Receive Buffer Size is 65,536
+[2024-05-18 00:09:35,591][DEBUG][org.postgresql.core.v3.ConnectionFactoryImpl][HikariPool-1 connection adder][181]Send Buffer Size is 65,536
+[2024-05-18 00:09:35,636][DEBUG][com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator][HikariPool-1 connection adder][738]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@642e1081
+[2024-05-18 00:09:38,721][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:09:38,721][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:09:43,305][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@22333b9: (connection has passed maxLifetime)
+[2024-05-18 00:09:43,305][DEBUG][org.postgresql.Driver][HikariPool-1 connection adder][285]Connecting with URL: jdbc:postgresql://localhost:5432/db_food
+[2024-05-18 00:09:43,305][DEBUG][org.postgresql.jdbc.PgConnection][HikariPool-1 connection adder][249]PostgreSQL JDBC Driver 42.6.2
+[2024-05-18 00:09:43,306][DEBUG][org.postgresql.jdbc.PgConnection][HikariPool-1 connection adder][1228]  setDefaultFetchSize = 0
+[2024-05-18 00:09:43,306][DEBUG][org.postgresql.jdbc.PgConnection][HikariPool-1 connection adder][1237]  setPrepareThreshold = 5
+[2024-05-18 00:09:43,306][DEBUG][org.postgresql.core.v3.ConnectionFactoryImpl][HikariPool-1 connection adder][236]Trying to establish a protocol version 3 connection to localhost:5432
+[2024-05-18 00:09:43,306][DEBUG][org.postgresql.core.v3.ConnectionFactoryImpl][HikariPool-1 connection adder][179]Receive Buffer Size is 65,536
+[2024-05-18 00:09:43,306][DEBUG][org.postgresql.core.v3.ConnectionFactoryImpl][HikariPool-1 connection adder][181]Send Buffer Size is 65,536
+[2024-05-18 00:09:43,347][DEBUG][com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator][HikariPool-1 connection adder][738]HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@152a24fa
+[2024-05-18 00:10:08,730][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:10:08,730][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:10:33,453][DEBUG][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-10][175]Error parsing HTTP request header
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1288)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1176)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-18 00:10:33,453][DEBUG][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-9][175]Error parsing HTTP request header
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1288)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1176)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-18 00:10:33,461][DEBUG][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-10][175]Error state [CLOSE_CONNECTION_NOW] reported while processing request
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1288)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1176)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-18 00:10:33,461][DEBUG][org.apache.juli.logging.DirectJDKLog][http-nio-8080-exec-9][175]Error state [CLOSE_CONNECTION_NOW] reported while processing request
+java.io.EOFException: null
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.fillReadBuffer(NioEndpoint.java:1288)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.read(NioEndpoint.java:1176)
+	at org.apache.coyote.http11.Http11InputBuffer.fill(Http11InputBuffer.java:785)
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:348)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-18 00:10:38,743][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:10:38,743][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:11:08,748][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:11:08,748][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:11:38,755][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:11:38,755][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:12:08,756][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:12:08,756][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:12:38,763][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:12:38,763][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:13:08,767][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][414]HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:13:08,767][DEBUG][com.zaxxer.hikari.pool.HikariPool][HikariPool-1 housekeeper][521]HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+[2024-05-18 00:13:32,405][DEBUG][sun.util.logging.internal.LoggingProviderImpl$JULWrapper][SIGINT handler][257]Runtime.exit() called with status: 130
+java.lang.Throwable: Runtime.exit(130)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Terminator$1.handle(Terminator.java:51)
+	at java.base/jdk.internal.misc.Signal$1.run(Signal.java:218)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[2024-05-18 00:13:32,455][DEBUG][org.springframework.boot.availability.ApplicationAvailabilityBean][SpringApplicationShutdownHook][77]Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+[2024-05-18 00:13:32,468][DEBUG][org.springframework.context.support.AbstractApplicationContext][SpringApplicationShutdownHook][1125]Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2453f95d, started on Fri May 17 21:56:05 ICT 2024
+[2024-05-18 00:13:32,556][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup][SpringApplicationShutdownHook][480]Stopping beans in phase 2147483647
+[2024-05-18 00:13:32,563][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][SpringApplicationShutdownHook][352]Bean 'applicationTaskExecutor' completed its stop procedure
+[2024-05-18 00:13:32,564][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup][SpringApplicationShutdownHook][480]Stopping beans in phase 2147482623
+[2024-05-18 00:13:32,594][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][SpringApplicationShutdownHook][352]Bean 'webServerGracefulShutdown' completed its stop procedure
+[2024-05-18 00:13:32,594][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup][SpringApplicationShutdownHook][480]Stopping beans in phase 2147481599
+[2024-05-18 00:13:32,624][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][SpringApplicationShutdownHook][352]Bean 'webServerStartStop' completed its stop procedure
+[2024-05-18 00:13:32,626][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup][SpringApplicationShutdownHook][480]Stopping beans in phase -2147483647
+[2024-05-18 00:13:32,628][DEBUG][org.springframework.context.support.DefaultLifecycleProcessor][SpringApplicationShutdownHook][352]Bean 'springBootLoggingLifecycle' completed its stop procedure
+[2024-05-18 00:13:32,635][DEBUG][org.springframework.jmx.export.MBeanExporter][SpringApplicationShutdownHook][468]Unregistering JMX-exposed beans on shutdown
+[2024-05-18 00:13:32,639][DEBUG][org.springframework.jmx.support.MBeanRegistrationSupport][SpringApplicationShutdownHook][186]Unregistering JMX-exposed beans
+[2024-05-18 00:13:32,641][DEBUG][org.springframework.scheduling.concurrent.ExecutorConfigurationSupport][SpringApplicationShutdownHook][328]Shutting down ExecutorService 'applicationTaskExecutor'
+[2024-05-18 00:13:32,647][INFO ][org.springframework.orm.jpa.AbstractEntityManagerFactoryBean][SpringApplicationShutdownHook][650]Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-05-18 00:13:32,651][DEBUG][org.hibernate.internal.SessionFactoryImpl][SpringApplicationShutdownHook][907]HHH000031: Closing
+[2024-05-18 00:13:32,655][DEBUG][org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl][SpringApplicationShutdownHook][608]HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2024-05-18 00:13:32,712][DEBUG][org.hibernate.type.spi.TypeConfiguration$Scope][SpringApplicationShutdownHook][555]Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@14690a5c] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@24749ad3]
+[2024-05-18 00:13:32,714][DEBUG][org.hibernate.service.internal.AbstractServiceRegistryImpl][SpringApplicationShutdownHook][414]Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+[2024-05-18 00:13:32,727][DEBUG][org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl][SpringApplicationShutdownHook][298]Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+[2024-05-18 00:13:32,731][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][350]HikariPool-1 - Shutdown initiated...
+[2024-05-18 00:13:32,731][DEBUG][com.zaxxer.hikari.pool.HikariPool][SpringApplicationShutdownHook][414]HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+[2024-05-18 00:13:32,736][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@ce06be2: (connection evicted)
+[2024-05-18 00:13:32,736][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@37cb484d: (connection evicted)
+[2024-05-18 00:13:32,736][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@3d33233d: (connection evicted)
+[2024-05-18 00:13:32,736][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@7831baff: (connection evicted)
+[2024-05-18 00:13:32,736][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@15d50c94: (connection evicted)
+[2024-05-18 00:13:32,736][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@4983047a: (connection evicted)
+[2024-05-18 00:13:32,736][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@2afd3322: (connection evicted)
+[2024-05-18 00:13:32,737][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@742fccb8: (connection evicted)
+[2024-05-18 00:13:32,737][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@642e1081: (connection evicted)
+[2024-05-18 00:13:32,737][DEBUG][com.zaxxer.hikari.pool.PoolBase][HikariPool-1 connection closer][132]HikariPool-1 - Closing connection org.postgresql.jdbc.PgConnection@152a24fa: (connection evicted)
+[2024-05-18 00:13:32,739][DEBUG][com.zaxxer.hikari.pool.HikariPool][SpringApplicationShutdownHook][414]HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+[2024-05-18 00:13:32,739][INFO ][com.zaxxer.hikari.HikariDataSource][SpringApplicationShutdownHook][352]HikariPool-1 - Shutdown completed.

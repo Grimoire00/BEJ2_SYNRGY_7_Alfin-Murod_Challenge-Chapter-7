@@ -1,0 +1,18 @@
+==================
+BinarFud
+==================
+Terimkasih sudah memesan di BinarFud
+
+Dibawah ini adalah pesanan anda
+
+Es Jeruk	6	30000
+Mie Goreng	5	65000
+-----------------------+
+Total		11	95000
+
+Pembayaran : BinarCash
+
+==========================
+Simpan struk ini sebagai
+bukti pembayaran
+==========================

@@ -1,0 +1,82 @@
+[2024-05-05 20:43:54,448][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 21.0.2 with PID 8080 (C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 20:43:54,450][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 20:43:54,450][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 20:43:54,453][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 20:43:54,526][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@590c73d3
+[2024-05-05 20:43:54,562][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 20:43:54,595][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 20:43:54,709][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 20:43:54,722][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 20:43:54,723][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 20:43:54,724][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 20:43:54,724][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 20:43:54,726][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 20:43:54,726][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 20:43:54,726][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 20:43:54,729][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 20:43:54,908][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.binar.batch7.Batch7Application.main(Batch7Application.java:13)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 13 common frames omitted
+[2024-05-05 20:44:56,023][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 21.0.2 with PID 41952 (C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 20:44:56,024][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 20:44:56,024][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 20:44:56,025][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 20:44:56,060][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@590c73d3
+[2024-05-05 20:44:56,090][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 20:44:56,099][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 20:44:56,141][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 20:44:56,156][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 20:44:56,157][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 20:44:56,159][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 20:44:56,159][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 20:44:56,160][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 20:44:56,162][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 20:44:56,162][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 20:44:56,165][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 20:44:56,182][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.binar.batch7.Batch7Application.main(Batch7Application.java:13)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 13 common frames omitted

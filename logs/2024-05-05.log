@@ -1,0 +1,980 @@
+[2024-05-05 20:54:55,654][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 21.0.2 with PID 46820 (C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 20:54:55,655][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 20:54:55,656][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 20:54:55,657][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 20:54:55,694][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@590c73d3
+[2024-05-05 20:54:55,711][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 20:54:55,721][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 20:54:55,763][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 20:54:55,772][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 20:54:55,773][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 20:54:55,775][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 20:54:55,776][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 20:54:55,785][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 20:54:55,786][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 20:54:55,793][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 20:54:55,796][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 20:54:55,812][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.binar.batch7.Batch7Application.main(Batch7Application.java:13)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 13 common frames omitted
+[2024-05-05 21:35:09,033][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 21.0.2 with PID 37616 (started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 21:35:09,035][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 21:35:09,037][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 21:35:09,037][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 21:35:09,054][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@560cbf1a
+[2024-05-05 21:35:09,076][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 21:35:09,095][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 21:35:09,275][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 21:35:09,287][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 21:35:09,290][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 21:35:09,297][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 21:35:09,303][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 21:35:09,305][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 21:35:09,307][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 21:35:09,315][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 21:35:09,327][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\config\Config.class]
+[2024-05-05 21:35:09,335][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\EmployeeController.class]
+[2024-05-05 21:35:09,343][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\SampleController.class]
+[2024-05-05 21:35:09,361][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][482]Ignored because not a concrete top-level class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\repository\EmployeeRepository.class]
+[2024-05-05 21:35:09,373][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\service\impl\ServiceImplEmployee.class]
+[2024-05-05 21:35:09,374][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\sp\QuerySPEmployee.class]
+[2024-05-05 21:35:09,377][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 21:35:09,416][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 21:35:09,423][DEBUG][org.springframework.test.context.cache.DefaultContextCache][main][276]Spring test ApplicationContext cache statistics: [DefaultContextCache@267bbe1a size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 1]
+[2024-05-05 21:35:09,423][WARN ][org.springframework.test.context.TestContextManager][main][272]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp@1f12e153]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@aed0151 testClass = com.binar.batch7.CH4_Pertemuan3.sp.TestingSp, locations = [], classes = [com.binar.batch7.Batch7Application], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@1725dc0f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3c407114, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@619713e5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@43195e57, org.springframework.boot.test.context.SpringBootTestAnnotation@86c3c89a], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 27 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 21:35:09,434][DEBUG][org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener][main][154]After test class: class [TestingSp], class annotated with @DirtiesContext [false] with mode [null]
+[2024-05-05 21:56:15,084][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting Batch7Application using Java 21.0.2 with PID 50000 (C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 21:56:15,089][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 21:56:15,090][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 21:56:15,091][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 21:56:15,149][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ce33a58
+[2024-05-05 21:56:15,182][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 21:56:15,206][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 21:56:15,356][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 21:56:15,383][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 21:56:15,387][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 21:56:15,390][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 21:56:15,392][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 21:56:15,395][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 21:56:15,396][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 21:56:15,399][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 21:56:15,401][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\config\Config.class]
+[2024-05-05 21:56:15,404][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\EmployeeController.class]
+[2024-05-05 21:56:15,406][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\SampleController.class]
+[2024-05-05 21:56:15,432][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][482]Ignored because not a concrete top-level class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\repository\EmployeeRepository.class]
+[2024-05-05 21:56:15,435][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\service\impl\ServiceImplEmployee.class]
+[2024-05-05 21:56:15,436][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\sp\QuerySPEmployee.class]
+[2024-05-05 21:56:15,442][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 21:56:15,598][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at com.binar.batch7.Batch7Application.main(Batch7Application.java:13)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 13 common frames omitted
+[2024-05-05 22:04:41,438][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 21.0.2 with PID 9332 (started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 22:04:41,440][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 22:04:41,441][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 22:04:41,441][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 22:04:41,458][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2755d705
+[2024-05-05 22:04:41,475][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 22:04:41,486][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 22:04:41,521][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 22:04:41,530][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 22:04:41,531][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 22:04:41,532][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:04:41,533][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 22:04:41,534][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 22:04:41,536][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 22:04:41,536][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:04:41,537][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\config\Config.class]
+[2024-05-05 22:04:41,537][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\EmployeeController.class]
+[2024-05-05 22:04:41,538][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\SampleController.class]
+[2024-05-05 22:04:41,555][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][482]Ignored because not a concrete top-level class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\repository\EmployeeRepository.class]
+[2024-05-05 22:04:41,556][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:04:41,558][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\sp\QuerySPEmployee.class]
+[2024-05-05 22:04:41,563][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 22:04:41,661][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:04:41,668][DEBUG][org.springframework.test.context.cache.DefaultContextCache][main][276]Spring test ApplicationContext cache statistics: [DefaultContextCache@13e698c7 size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 1]
+[2024-05-05 22:04:41,669][WARN ][org.springframework.test.context.TestContextManager][main][272]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp@aed0151]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@5a4c638d testClass = com.binar.batch7.CH4_Pertemuan3.sp.TestingSp, locations = [], classes = [com.binar.batch7.Batch7Application], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@1725dc0f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3c407114, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@619713e5, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@43195e57, org.springframework.boot.test.context.SpringBootTestAnnotation@86c3c89a], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 27 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:04:41,679][DEBUG][org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener][main][154]After test class: class [TestingSp], class annotated with @DirtiesContext [false] with mode [null]
+[2024-05-05 22:13:52,843][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 21.0.2 with PID 43668 (started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 22:13:52,845][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 22:13:52,846][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 22:13:52,846][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 22:13:52,861][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61edc883
+[2024-05-05 22:13:52,878][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 22:13:52,889][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 22:13:53,014][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 22:13:53,031][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 22:13:53,036][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 22:13:53,045][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:13:53,050][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 22:13:53,060][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 22:13:53,063][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 22:13:53,065][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:13:53,072][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\config\Config.class]
+[2024-05-05 22:13:53,073][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\EmployeeController.class]
+[2024-05-05 22:13:53,080][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\SampleController.class]
+[2024-05-05 22:13:53,095][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][482]Ignored because not a concrete top-level class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\repository\EmployeeRepository.class]
+[2024-05-05 22:13:53,099][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:13:53,099][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\sp\QuerySPEmployee.class]
+[2024-05-05 22:13:53,102][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 22:13:53,132][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:13:53,138][DEBUG][org.springframework.test.context.cache.DefaultContextCache][main][276]Spring test ApplicationContext cache statistics: [DefaultContextCache@6eafb10e size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 1]
+[2024-05-05 22:13:53,138][WARN ][org.springframework.test.context.TestContextManager][main][272]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp@26a94fa5]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@1d3e6d34 testClass = com.binar.batch7.CH4_Pertemuan3.sp.TestingSp, locations = [], classes = [com.binar.batch7.Batch7Application], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@2145b572, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1cbbffcd, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@28eaa59a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@56620197, org.springframework.boot.test.context.SpringBootTestAnnotation@9b8ab127], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 27 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:13:53,146][DEBUG][org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener][main][154]After test class: class [TestingSp], class annotated with @DirtiesContext [false] with mode [null]
+[2024-05-05 22:14:09,454][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 21.0.2 with PID 51100 (started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 22:14:09,456][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 22:14:09,457][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 22:14:09,458][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 22:14:09,473][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61edc883
+[2024-05-05 22:14:09,490][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 22:14:09,501][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 22:14:09,540][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 22:14:09,548][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 22:14:09,550][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 22:14:09,552][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:14:09,552][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 22:14:09,553][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 22:14:09,553][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 22:14:09,554][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:14:09,555][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\config\Config.class]
+[2024-05-05 22:14:09,556][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\EmployeeController.class]
+[2024-05-05 22:14:09,557][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\SampleController.class]
+[2024-05-05 22:14:09,569][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][482]Ignored because not a concrete top-level class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\repository\EmployeeRepository.class]
+[2024-05-05 22:14:09,570][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:14:09,571][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\sp\QuerySPEmployee.class]
+[2024-05-05 22:14:09,577][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 22:14:09,661][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:14:09,669][DEBUG][org.springframework.test.context.cache.DefaultContextCache][main][276]Spring test ApplicationContext cache statistics: [DefaultContextCache@26a94fa5 size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 1]
+[2024-05-05 22:14:09,669][WARN ][org.springframework.test.context.TestContextManager][main][272]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp@464a4442]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@6eafb10e testClass = com.binar.batch7.CH4_Pertemuan3.sp.TestingSp, locations = [], classes = [com.binar.batch7.Batch7Application], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@2145b572, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1cbbffcd, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@28eaa59a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@56620197, org.springframework.boot.test.context.SpringBootTestAnnotation@9b8ab127], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 27 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:14:09,680][DEBUG][org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener][main][154]After test class: class [TestingSp], class annotated with @DirtiesContext [false] with mode [null]
+[2024-05-05 22:14:53,781][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 21.0.2 with PID 50880 (started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 22:14:53,782][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 22:14:53,783][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 22:14:53,784][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 22:14:53,816][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@56db847e
+[2024-05-05 22:14:53,838][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 22:14:53,858][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 22:14:53,891][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 22:14:53,902][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 22:14:53,903][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 22:14:53,904][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:14:53,905][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 22:14:53,906][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 22:14:53,906][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 22:14:53,906][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:14:53,907][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\config\Config.class]
+[2024-05-05 22:14:53,907][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\EmployeeController.class]
+[2024-05-05 22:14:53,907][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\SampleController.class]
+[2024-05-05 22:14:53,921][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][482]Ignored because not a concrete top-level class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\repository\EmployeeRepository.class]
+[2024-05-05 22:14:53,922][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:14:53,923][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\sp\QuerySPEmployee.class]
+[2024-05-05 22:14:53,926][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 22:14:54,045][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:14:54,053][DEBUG][org.springframework.test.context.cache.DefaultContextCache][main][276]Spring test ApplicationContext cache statistics: [DefaultContextCache@6d64b553 size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 1]
+[2024-05-05 22:14:54,053][WARN ][org.springframework.test.context.TestContextManager][main][272]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp@53667cbe]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@e8fadb0 testClass = com.binar.batch7.CH4_Pertemuan3.sp.TestingSp, locations = [], classes = [com.binar.batch7.Batch7Application], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@7a69b07, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1817d444, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3911c2a7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7722c3c3, org.springframework.boot.test.context.SpringBootTestAnnotation@34b2fb4b], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 27 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:14:54,064][DEBUG][org.springframework.test.annotation.ProfileValueUtils][main][70]Retrieved @ProfileValueSourceConfiguration [null] for test class [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp]
+[2024-05-05 22:14:54,064][DEBUG][org.springframework.test.annotation.ProfileValueUtils][main][83]Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp]
+[2024-05-05 22:14:54,065][DEBUG][org.springframework.test.context.support.DependencyInjectionTestExecutionListener][main][92]Performing dependency injection for test class com.binar.batch7.CH4_Pertemuan3.sp.TestingSp
+[2024-05-05 22:14:54,065][DEBUG][org.springframework.test.context.cache.DefaultContextCache][main][276]Spring test ApplicationContext cache statistics: [DefaultContextCache@6d64b553 size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 2, failureCount = 1]
+[2024-05-05 22:14:54,065][WARN ][org.springframework.test.context.TestContextManager][main][272]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp@41477a6d]
+java.lang.IllegalStateException: ApplicationContext failure threshold (1) exceeded: skipping repeated attempt to load context for [WebMergedContextConfiguration@e8fadb0 testClass = com.binar.batch7.CH4_Pertemuan3.sp.TestingSp, locations = [], classes = [com.binar.batch7.Batch7Application], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@7a69b07, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1817d444, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3911c2a7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7722c3c3, org.springframework.boot.test.context.SpringBootTestAnnotation@34b2fb4b], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:145)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+[2024-05-05 22:14:54,068][DEBUG][org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener][main][154]After test class: class [TestingSp], class annotated with @DirtiesContext [false] with mode [null]
+[2024-05-05 22:15:20,861][INFO ][org.springframework.boot.StartupInfoLogger][main][50]Starting TestingSp using Java 21.0.2 with PID 22304 (started by Alfin in C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7)
+[2024-05-05 22:15:20,864][DEBUG][org.springframework.boot.StartupInfoLogger][main][51]Running with Spring Boot v3.2.5, Spring v6.1.6
+[2024-05-05 22:15:20,865][INFO ][org.springframework.boot.SpringApplication][main][654]No active profile set, falling back to 1 default profile: "default"
+[2024-05-05 22:15:20,865][DEBUG][org.springframework.boot.SpringApplication][main][687]Loading source class com.binar.batch7.Batch7Application
+[2024-05-05 22:15:20,886][DEBUG][org.springframework.context.support.AbstractApplicationContext][main][671]Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@61edc883
+[2024-05-05 22:15:20,902][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+[2024-05-05 22:15:20,918][DEBUG][org.springframework.beans.factory.support.DefaultSingletonBeanRegistry][main][225]Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+[2024-05-05 22:15:20,974][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\config\Config.class]
+[2024-05-05 22:15:20,985][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\EmployeeController.class]
+[2024-05-05 22:15:20,986][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\controller\SampleController.class]
+[2024-05-05 22:15:20,988][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan1\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:15:20,988][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\config\Config.class]
+[2024-05-05 22:15:20,989][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\EmployeeController.class]
+[2024-05-05 22:15:20,989][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\controller\SampleController.class]
+[2024-05-05 22:15:20,990][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan2\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:15:20,990][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\config\Config.class]
+[2024-05-05 22:15:20,991][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\EmployeeController.class]
+[2024-05-05 22:15:20,991][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\controller\SampleController.class]
+[2024-05-05 22:15:21,009][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][482]Ignored because not a concrete top-level class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\repository\EmployeeRepository.class]
+[2024-05-05 22:15:21,011][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\service\impl\ServiceImplEmployee.class]
+[2024-05-05 22:15:21,012][DEBUG][org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider][main][476]Identified candidate component class: file [C:\Users\Alfin\Documents\Web\BOOTCAMP SYNRGY\Code_Synrgy\batch7\target\classes\com\binar\batch7\CH4_Pertemuan3\sp\QuerySPEmployee.class]
+[2024-05-05 22:15:21,017][WARN ][org.springframework.context.support.AbstractApplicationContext][main][632]Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+[2024-05-05 22:15:21,104][ERROR][org.springframework.boot.SpringApplication][main][851]Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:15:21,109][DEBUG][org.springframework.test.context.cache.DefaultContextCache][main][276]Spring test ApplicationContext cache statistics: [DefaultContextCache@26a94fa5 size = 0, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1, failureCount = 1]
+[2024-05-05 22:15:21,109][WARN ][org.springframework.test.context.TestContextManager][main][272]Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [com.binar.batch7.CH4_Pertemuan3.sp.TestingSp@464a4442]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@6eafb10e testClass = com.binar.batch7.CH4_Pertemuan3.sp.TestingSp, locations = [], classes = [com.binar.batch7.Batch7Application], contextInitializerClasses = [], activeProfiles = [], propertySourceDescriptors = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true", "server.port=0"], contextCustomizers = [org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@1f, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizer@2145b572, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@1cbbffcd, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@28eaa59a, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@56620197, org.springframework.boot.test.context.SpringBootTestAnnotation@9b8ab127], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:98)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:260)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:228)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:247)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.binar.batch7.Batch7Application]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:179)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:289)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:788)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:606)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.test.context.SpringBootContextLoader.lambda$loadContext$3(SpringBootContextLoader.java:137)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:58)
+	at org.springframework.util.function.ThrowingSupplier.get(ThrowingSupplier.java:46)
+	at org.springframework.boot.SpringApplication.withHook(SpringApplication.java:1454)
+	at org.springframework.boot.test.context.SpringBootContextLoader$ContextLoaderHook.run(SpringBootContextLoader.java:553)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:137)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:108)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
+	... 27 common frames omitted
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'config' for bean class [com.binar.batch7.CH4_Pertemuan2.config.Config] conflicts with existing, non-compatible bean definition of same name and class [com.binar.batch7.CH4_Pertemuan1.config.Config]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:306)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:246)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:197)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:165)
+	... 46 common frames omitted
+[2024-05-05 22:15:21,116][DEBUG][org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener][main][154]After test class: class [TestingSp], class annotated with @DirtiesContext [false] with mode [null]
